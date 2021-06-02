@@ -3,7 +3,7 @@
     "version": "0.0.11",
     "description": null,
     "main": "index.js",
-    "repository": null,
+    "repository": "https://github.com/lee-liu/tree-sitter-ptl",
     "author": "W. van Noordt",
     "license": "MIT",
     "devDependencies": {

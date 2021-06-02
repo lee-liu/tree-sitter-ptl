@@ -1,0 +1,22 @@
+{
+    "name": "tree-sitter-ptl",
+    "version": "0.0.11",
+    "description": null,
+    "main": "index.js",
+    "repository": "https://github.com/lee-liu/tree-sitter-ptl",
+    "author": "W. van Noordt",
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "^6.1.12",
+        "electron-rebuild": "^2.3.4",
+        "tree-sitter-cli": "^0.13.16"
+    },
+    "scripts": {
+        "build": "tree-sitter generate && node-gyp configure && node-gyp build && tree-sitter test"
+    },
+    "dependencies": {
+        "graceful-fs": "^4.2.4",
+        "nan": "^2.14.2",
+        "tree-sitter": "^0.17.1"
+    }
+}
